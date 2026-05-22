@@ -1,5 +1,9 @@
-import { APP_NAME } from "@romapare/shared";
+import Map from "@/components/Map";
 
 export default function App() {
-  return <h1>{APP_NAME}</h1>;
+  return (
+    <div style={{ width: "100vw", height: "100vh" }}>
+      <Map />
+    </div>
+  );
 }

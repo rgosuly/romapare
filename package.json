@@ -10,6 +10,8 @@
   "scripts": {
     "build": "nx run-many -t build",
     "dev": "nx run-many -t serve --parallel",
+    "dev:web": "nx serve web",
+    "dev:api": "nx serve api",
     "typecheck": "nx run-many -t typecheck",
     "lint": "nx run-many -t lint",
     "format": "prettier --write ."
