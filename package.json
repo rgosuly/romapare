@@ -1,0 +1,20 @@
+{
+  "name": "romapare",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "nx run-many -t build",
+    "dev": "nx run-many -t serve --parallel",
+    "typecheck": "nx run-many -t typecheck",
+    "lint": "nx run-many -t lint"
+  },
+  "devDependencies": {
+    "@nx/vite": "^22.7.2",
+    "nx": "^22.7.2",
+    "typescript": "^5.6.0"
+  }
+}
